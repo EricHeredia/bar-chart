@@ -7,11 +7,16 @@
   "author": "EricHeredia <EricDavidHeredia@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "webpack --config webpack.conf.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "d3": "^5.7.0",
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "webpack": "^4.29.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.1"
   }
 }

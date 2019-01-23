@@ -84,8 +84,9 @@ d3.json('https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/mas
          toolTip.html(tooltipFormat(d))
                 .style('left', (d3.event.pageX + 25) + 'px')
                 // Follow mouse height
-                //.style('top', (d3.event.pageY - 60) + 'px')
-                .style('top', '420px')
+                .style('top', (d3.event.pageY - 60) + 'px')
+                // Fixed height
+                //.style('bottom', '60px')
      })
      .on('mouseout', function() {
          toolTip.transition()
