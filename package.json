@@ -6,6 +6,7 @@
   "author": "EricHeredia <EricDavidHeredia@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "d3": "^5.7.0"
+    "d3": "^5.7.0",
+    "gh-pages": "^2.0.1"
   }
 }
