@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background-color: #7e4727;
+  font-family: sans-serif;
+}
+
+p {
+  text-align: right;
+  font-size: 13px;
+  margin-top: -15px;
+  padding-right: 10px;
+}
+
+h1 {
+  font-weight: lighter;
+  text-align: center;
+  padding: 20px;
+  font-size: 35px;
+}
+
+#svgContainer {
+  display: block;
+  margin-left: 10px;
+}
+
+div .tooltip {
+  position: absolute;
+  text-align: center;
+  font-family: sans-serif;
+  width: 150px;
+  height: 50px;
+  padding-top: 10px;
+  background: lightsteelblue;
+  border: 0;
+  border-radius: 5px;
+  pointer-events: none;
+  box-shadow: 0 0 10px 0;
+}
+
+.yLabel {
+  transform: rotate(90);
+}
+
+#mainContainer {
+  margin: 15vh auto;
+  width: 900px;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 0 0 15px 3px;
+}
+
+rect {
+  fill: #9e4700;
+}
+rect:hover {
+  opacity: .4;
+}

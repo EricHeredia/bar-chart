@@ -1,0 +1,11 @@
+{
+  "name": "bar-chart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ericheredia/bar-chart.git",
+  "author": "EricHeredia <EricDavidHeredia@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^5.7.0"
+  }
+}
