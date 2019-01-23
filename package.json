@@ -2,9 +2,14 @@
   "name": "bar-chart",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "http://EricHeredia.github.io/bar-chart",
   "repository": "https://github.com/ericheredia/bar-chart.git",
   "author": "EricHeredia <EricDavidHeredia@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "d3": "^5.7.0",
     "gh-pages": "^2.0.1"
